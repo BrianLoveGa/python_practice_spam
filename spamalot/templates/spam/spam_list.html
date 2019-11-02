@@ -1,0 +1,18 @@
+{% extends 'spam/index.html' %}
+{% block content %}
+
+<h2>Spam</h2>
+<h1>My People</h1>
+
+<ul>
+{% for spam in spams %}
+
+<li>{{spam.first_name}} - {{spam.last_name}} </li>
+<li> {{spam.email}}</li>
+<li> {{spam.birthday}}</li>
+<li>{{spam.nickname}}</li>
+
+{% endfor %}
+</ul>
+
+{% endblock %}
