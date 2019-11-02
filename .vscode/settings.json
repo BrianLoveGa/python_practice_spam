@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "/Users/brianloveless/.local/share/virtualenvs/python_practice_spam-Pg5GbI8o/bin/python",
+    "python.linting.pylintEnabled": false,
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.enabled": true
+}
